@@ -50,6 +50,11 @@ export default async function RootLayout({
           type="module"
           data-account="mct25k5v50"
         ></Script>
+        <Script
+          src="https://sdk.hellouniweb.com/base/main.js"
+          data-account="pFXBEdIb"
+          async
+        ></Script>
         <script
           id="theme-init"
           dangerouslySetInnerHTML={{
