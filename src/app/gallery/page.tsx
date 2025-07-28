@@ -29,6 +29,7 @@ export default function Gallery() {
         }}
       />
       <MasonryGrid />
+      <video loop autoPlay src={"/next-js.mp4"}></video>
     </Flex>
   );
 }

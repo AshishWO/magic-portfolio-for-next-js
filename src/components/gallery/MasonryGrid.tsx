@@ -10,7 +10,7 @@ export default function MasonryGrid() {
     default: 2,
     720: 1,
   };
-
+  console.log(gallery);
   return (
     <Masonry
       breakpointCols={breakpointColumnsObj}
