@@ -103,29 +103,11 @@ export default async function RootLayout({
             `,
           }}
         />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-      (function (d) {
-        var s = d.createElement("script");
-
-        s.setAttribute("data-trigger", "#guidy-widget-button")
-
-        s.setAttribute(
-          "src",
-          "https://staging-widget.guidy.net/v1/assets/static-pages/injector.js"
-        );
-        s.setAttribute("type", "module");
-        s.setAttribute("data-account", "mct25k5v50");
-        (d.body || d.head).appendChild(s);
-      })(document);
-    `,
-          }}
-        />
-        <noscript>
-          Please ensure Javascript is enabled for purpose of{" "}
-          <a href="https://guidy.com">website accessibility</a>
-        </noscript>
+        <Script
+          src="https://staging-widget.guidy.net/v1/assets/static-pages/injector.js"
+          type="module"
+          data-account="mct25k5v50"
+        ></Script>
       </head>
       <Providers>
         <Column
