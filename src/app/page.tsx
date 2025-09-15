@@ -63,7 +63,7 @@ export default function Home() {
             horizontal="start"
             paddingBottom="16"
           >
-            <p style={{ fontSize: "60px", fontWeight: "bolder" }}>
+            <p style={{ fontSize: "72px", fontWeight: "bolder" }}>
               {home.headline}
             </p>
           </RevealFx>
