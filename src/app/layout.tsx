@@ -103,10 +103,15 @@ export default async function RootLayout({
             `,
           }}
         />
-        <Script
-          src="https://staging-widget.guidy.net/v1/assets/static-pages/injector.js"
+        {/* <Script
+          src="http://127.0.0.1:5500/test-live/injector.js"
           type="module"
-          data-account="mct25k5v50"
+          data-account="m6ertwhy4i"
+        ></Script> */}
+        <Script
+          src="https://staging-widget.wokkey.com/scripts/injector.js"
+          type="module"
+          data-bot-id="meu6rz7h6u"
         ></Script>
       </head>
       <Providers>
