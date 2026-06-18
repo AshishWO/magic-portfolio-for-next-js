@@ -42,7 +42,7 @@ export default async function RootLayout({
         fonts.heading.variable,
         fonts.body.variable,
         fonts.label.variable,
-        fonts.code.variable
+        fonts.code.variable,
       )}
     >
       <head>
@@ -103,15 +103,10 @@ export default async function RootLayout({
             `,
           }}
         />
-        {/* <Script
-          src="http://127.0.0.1:5500/test-live/injector.js"
-          type="module"
-          data-account="m6ertwhy4i"
-        ></Script> */}
         <Script
-          src="https://staging-widget.wokkey.com/scripts/injector.js"
+          src="https://staging-widget.braoza.com/v1/assets/static-pages/injector.js"
           type="module"
-          data-bot-id="meu6rz7h6u"
+          data-account="mqi0x8tkfw"
         ></Script>
       </head>
       <Providers>
