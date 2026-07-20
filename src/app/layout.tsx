@@ -106,7 +106,7 @@ export default async function RootLayout({
         <Script
           src="https://staging-widget.braoza.com/v1/assets/static-pages/injector.js"
           type="module"
-          data-account="mqoqjqs6e4"
+          data-account="mrswm8rwka"
         ></Script>
 
         <Script
